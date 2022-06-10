@@ -43,13 +43,14 @@
 			<div class="inner">
 				<h1>Hola, soy Neider, un estudiante de programación <span style="color: #e66bb9"> FullStack Developer
 					</span></h1>
+					
 				<p>Vivo en Neiva-Colombia y actualmente me dedico a estudiar programación con manejo de tecnologías web
 					tales como: <br> <span style="color: #c7c0c0"> Node.js, React, Javascript, HTML, CSS, entre
 						otras.</span>
 					<br>
 					<ul>
 				<p>Aqui te dejo mi CV para mas información
-					<li style="color: #e66bb9"</li> <a href="documents/CV Neider Parra..pdf" class="button" download="CV Neider Parra"><span
+					<li style="color: #e66bb9"</li> <a href="documents/CV Neider Parra.pdf.pdf" class="button" download="CV Neider Parra"><span
 							style="color: #e66bb9">descargar</span>
 					</a></li>
 				</ul>
@@ -73,7 +74,7 @@
 						<h2>Pokedex</h2>
 						<p>Aplicación web de búsqueda de personajes de Pokémon por Id, nombre y tipo.</p>
 						<ul class="actions">
-							<li><a href="Pokedex.html" class="button">mas información</a></li>
+							<li><a href="Pokedex.html" target="_blank" class="button">mas información</a></li>
 						</ul>
 					</div>
 				</div>
@@ -87,7 +88,7 @@
 						<p>Aplicación web que permite buscar personajes de la serie por ID, universo usando la API Rick
 							and Morty.</p>
 						<ul class="actions">
-							<li><a href="rick and morty.html" class="button">mas información</a></li>
+							<li><a href="rick and morty.html" target="_blank" class="button">mas información</a></li>
 						</ul>
 					</div>
 				</div>
@@ -100,7 +101,7 @@
 						<p>API que permite la generación de usuarios y la creación y manejo de productos en una base de
 							datos.</p>
 						<ul class="actions">
-							<li><a href="E-commerce.html" class="button">mas información</a></li>
+							<li><a href="E-commerce.html" target="_blank" class="button">mas información</a></li>
 						</ul>
 					</div>
 				</div>
@@ -157,8 +158,33 @@
 				<h2>Ponerse en contacto</h2>
 				<div class="split style1">
 					<section>
-						<img src="images/foto_portafolio-final.jpg" alt="">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field half">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="5"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><a href="" class="button submit">Send Message</a></li>
+							</ul>
+						</form>
 					</section>
+					
+		
+		
+		
+		
+		
+					
 					<section>
 						<ul class="contact">
 							<li>
@@ -178,18 +204,16 @@
 								<h3>Redes Sociales</h3>
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/neider-parra"
-											class="icon brands fa-2x fa-linkedin-in"><span
-												class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/neiderp24" class="icon brands fa-2x fa-github">
+											class="icon brands fa-2x fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a>
+									</li>
+									<li><a href="https://github.com/neiderp24" class="icon brands fa-2x fa-github" target="_blank">
 											<span class="label">GitHub</span></a></li>
 									<li><a href="https://www.facebook.com/neiderp24"
-											class="icon brands fa-2x fa-facebook-f"><span
-												class="label">Facebook</span></a></li>
-
+											class="icon brands fa-2x fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+		
 									<li><a href="https://www.instagram.com/neiderp24/"
-											class="icon brands fa-2x fa-instagram"><span
-												class="label">Instagram</span></a></li>
-
+											class="icon brands fa-2x fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+		
 								</ul>
 							</li>
 						</ul>
@@ -199,6 +223,8 @@
 		</section>
 
 	</div>
+
+
 
 	<!-- Footer -->
 	<footer id="footer" class="wrapper style1-alt">
